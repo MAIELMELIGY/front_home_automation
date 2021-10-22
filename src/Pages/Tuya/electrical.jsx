@@ -10,11 +10,11 @@ class Electrical extends React.Component {
   };
 
   componentDidMount() {
-    axios.get("http://127.0.0.1:8000/api/Tag/").then((response) => {
+    axios.get("https://apihomeautomation.herokuapp.com/api/Tag/").then((response) => {
       this.setState({ Electrical: response.data });
     });
     axios
-      .get("http://127.0.0.1:8000/api/ProductTuya/")
+      .get("https://apihomeautomation.herokuapp.com/api/ProductTuya/")
       .then((response) => {
         this.setState({ Product: response.data });
       })

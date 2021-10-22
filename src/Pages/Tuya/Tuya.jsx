@@ -22,7 +22,7 @@ class  Tuya extends Component {
     };
 componentDidMount() {
     
-        axios.get("http://127.0.0.1:8000/api/Tag/").then(response => {
+        axios.get("https://apihomeautomation.herokuapp.com/api/Tag/").then(response => {
             this.setState({Tag:response.data})
         })
      

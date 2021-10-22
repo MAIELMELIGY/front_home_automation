@@ -26,7 +26,7 @@ class KnxDetails extends Component {
   componentDidMount() {
     axios
       .get(
-        `http://127.0.0.1:8000/api/ProductHdl/?id=${this.props.match.params.id} `
+        `https://apihomeautomation.herokuapp.com/api/ProductHdl/?id=${this.props.match.params.id} `
       )
 
       .then((response) => {

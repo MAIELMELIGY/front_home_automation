@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Carousel } from "react-bootstrap";
+
 import "./product.css";
 
 import axios from "axios";
@@ -19,7 +19,7 @@ class SensorDetail extends Component {
   componentDidMount() {
     axios
       .get(
-        `http://127.0.0.1:8000/api/ProductTuya/?id=${this.props.match.params.id} `
+        `https://apihomeautomation.herokuapp.com/api/ProductTuya/?id=${this.props.match.params.id} `
       )
 
       .then((response) => {

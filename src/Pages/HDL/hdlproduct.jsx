@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { Component} from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "./hdl.css";
@@ -11,7 +11,7 @@ class Producthdl extends Component {
 
   componentDidMount() {
     axios
-      .get("http://127.0.0.1:8000/api/ProductHdl/")
+      .get("https://apihomeautomation.herokuapp.com/api/ProductHdl/")
       .then((response) => {
         this.setState({ Product: response.data });
       })

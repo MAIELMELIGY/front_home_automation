@@ -11,7 +11,7 @@ class Knx extends React.Component {
 
   componentDidMount() {
     axios
-      .get("http://127.0.0.1:8000/api/ProductHdl/")
+      .get("https://apihomeautomation.herokuapp.com/api/ProductHdl/")
       .then((response) => {
         this.setState({ Knx: response.data });
       })
