@@ -12,7 +12,7 @@ class Footer extends React.Component {
   };
   componentDidMount() {
     axios
-      .get("http://127.0.0.1:8000/api/Header/")
+      .get("https://apihomeautomation.herokuapp.com/api/Header/")
       .then((response) => {
         this.setState({ Topbar: response.data });
       })
