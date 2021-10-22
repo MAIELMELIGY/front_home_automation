@@ -1,0 +1,84 @@
+.Service {
+    padding-top: 0;
+  }
+  
+  .Service .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    background-color:#37276e;
+  }
+  
+  .Service .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #e94b27;
+  }
+  
+  .Service .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .Service .box p {
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Service .box:hover {
+    background: #e94b27;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  }
+  
+  .Service .box:hover span,
+  .Service .box:hover h4,
+  .Service .box:hover p {
+    color: #fff;
+  }
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #191919;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+  }

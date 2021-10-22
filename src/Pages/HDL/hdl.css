@@ -1,0 +1,17 @@
+.image-container{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.video-contain{
+    margin-right: 10px;
+    margin-left:20px;
+  
+    
+}
+@media only screen and (max-width: 750px) {
+    .image-container{  margin-left:10px;}
+    .video-contain video{
+      
+        width: 400px;
+    }
+}

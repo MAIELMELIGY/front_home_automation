@@ -1,0 +1,63 @@
+
+  .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+  .client p{
+      color:#f2f2f2;
+  }
+  
+  .clients img:hover {
+    filter: none;
+    transform: scale(1.2);
+  }
+  .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+    transform: rotateY(180deg);
+  }
+  .flip-container {
+    perspective: 1000px;
+  }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+      transform: rotateY(180deg);
+    }
+  
+  .flip-container, .front, .back {
+    width: 300px;
+    height: 400px;
+  }
+  
+  /* flip speed goes here */
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+  
+    position: relative;
+  }
+  
+  /* hide back of pane during swap */
+  .front, .back {
+    backface-visibility: hidden;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .front {
+    z-index: 2;
+
+    transform: rotateY(0deg);
+  }
+  
+
+  .back {
+    transform: rotateY(180deg);
+  }
+  @media (max-width: 768px) {
+    .clients img {
+      width: 40%;
+    }
+  }

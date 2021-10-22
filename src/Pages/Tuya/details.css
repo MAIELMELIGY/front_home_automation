@@ -1,0 +1,66 @@
+.main {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    top: 9vh;
+    padding: 1vw;
+    border-radius: 0vw
+}
+.row{
+top:50px;
+}
+
+
+.circle {
+    width: 20vw;
+    height: 20vw
+}
+
+.head {
+    font-size: 2vw;
+    font-family: 'Saira Semi Condensed', sans-serif
+}
+
+.name {
+    font-size: 1.3vw
+}
+
+.post {
+    font-size: 1.5vw
+}
+
+.fa {
+    color: #039be5
+}
+
+.row {
+    padding-top: 1vw
+}
+
+@media only screen and (max-width: 425px) {
+    .main {
+        width: 90vw;
+        height: 300vw
+    }
+
+    .circle {
+        width: 30vw;
+        height: 30vw
+    }
+
+    .name {
+        position: relative;
+        top: 2vw;
+        font-size: 5vw
+    }
+
+    .post {
+        font-size: 6vw
+    }
+
+    .head {
+        font-size: 8vw
+    }
+}
