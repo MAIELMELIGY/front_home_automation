@@ -11,7 +11,7 @@ class About extends Component {
     };
 componentDidMount() {
     
-        axios.get("http://127.0.0.1:8000/api/About/").then(response => {
+        axios.get("https://apihomeautomation.herokuapp.com/api/About/").then(response => {
             this.setState({About:response.data})
         })
      
