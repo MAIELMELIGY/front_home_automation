@@ -37,7 +37,7 @@ const Contact = ({ setAlert }) => {
         };
 
         setLoading(true);
-        axios.post('http://127.0.0.1:8000/api/Contactus/', { name,phone, email, subject, message }, config)
+        axios.post('https://apihomeautomation.herokuapp.com/api/Contactus/', { name,phone, email, subject, message }, config)
         .then(res => {
       
             setLoading(false);
