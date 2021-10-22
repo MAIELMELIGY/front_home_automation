@@ -12,6 +12,7 @@ body{
     padding: 0px;
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    background:#fff;
   }
 *{
     box-sizing: border-box;
