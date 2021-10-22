@@ -13,7 +13,7 @@ class Project extends React.Component {
   };
   componentDidMount() {
   
-      axios.get("http://127.0.0.1:8000/api/project/").then(response => {
+      axios.get("https://apihomeautomation.herokuapp.com/api/project/").then(response => {
           this.setState({projects:response.data})
       })
    

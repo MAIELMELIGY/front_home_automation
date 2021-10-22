@@ -11,7 +11,7 @@ class Service extends React.Component {
 };
 componentDidMount() {
 
-    axios.get("http://127.0.0.1:8000/api/Service/").then(response => {
+    axios.get("https://apihomeautomation.herokuapp.com/api/Service/").then(response => {
         this.setState({Service:response.data})
     })
  

@@ -13,7 +13,7 @@ class Client extends Component {
   };
   componentDidMount() {
     axios
-      .get("http://127.0.0.1:8000/api/Client/")
+      .get("https://apihomeautomation.herokuapp.com/api/Client/")
       .then((response) => {
         this.setState({ Client: response.data });
       })

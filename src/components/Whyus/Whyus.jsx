@@ -11,7 +11,7 @@ class Whyus extends React.Component {
 };
 componentDidMount() {
 
-    axios.get("http://127.0.0.1:8000/api/why_home/").then(response => {
+    axios.get("https://apihomeautomation.herokuapp.com/api/why_home/").then(response => {
         this.setState({Whyus:response.data})
     })
  
