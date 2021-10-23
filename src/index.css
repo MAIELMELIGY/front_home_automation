@@ -62,6 +62,12 @@ nav{
     text-decoration: none;
   
 }
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
 	background-color: #37276e;
