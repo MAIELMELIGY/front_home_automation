@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
 import "./product.css";
@@ -37,27 +38,16 @@ class BusproDetails extends Component {
         <div class="row d-flex justify-content-center">
     <div class="col-md-10">
           {this.state.Product.map((item) => (
-            <div class="card">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="images p-3">
-                        <div class="text-center p-4"> <img id="main-image" src={item.image_1} width="250" /> </div>
-                        <div class="thumbnail text-center"> <img onclick="change_image(this)" src={item.image_2} width="100"/> <img onclick="change_image(this)" src={item.image_3} width="100"/> <img onclick="change_image(this)" src={item.image_1} width="100"/> </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="product p-4">
-                        <div class="d-flex justify-content-between align-items-center">
-                        </div>
-                            <h5 class="text-uppercase">{item.Name}</h5>
-                           
-                        </div>
-                        <p class="about">{item.description}</p>
-                        
-                    </div>
-                </div>
-           
+            <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
+            <div class="maintxt">
+                <img src="{item.image_1}" class="img-responsive"/>
+                <span class="overlay-text">{item.Name}</span>
+            </div>
         </div>
+    </div>
+</div>
           ))}
         </div>
       </div>
