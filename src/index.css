@@ -40,6 +40,8 @@ input{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color:#fff;
+
 }
 nav{
 	display: flex;
