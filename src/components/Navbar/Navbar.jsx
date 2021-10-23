@@ -1,8 +1,5 @@
-import React ,{useState ,useEffect }from 'react'
+import React ,{useState  }from 'react'
 import { useTranslation } from 'react-i18next'
-import i18next from 'i18next'
-import cookies from 'js-cookie'
-import classNames from 'classnames'
 import { Link } from "react-scroll";
 import logo from "../../img/Logi.png";
 
@@ -68,11 +65,12 @@ function Navbar() {
         </li>
         <li>
         <div class="select">
-
+         <div className="select-style">
         <select  onChange={change} value ={lang}>
         <option value="en">English</option>
         <option value="ar">عربى</option>
         </select>
+        </div>
       </div>
         </li>
    
