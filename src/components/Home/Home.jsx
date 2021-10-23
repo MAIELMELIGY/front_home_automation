@@ -42,6 +42,7 @@ class Home extends React.Component {
                     width: "1536px",
                     height: "600px",
                     overflow: "hidden",
+                     allow="autoplay"
                   }}
                 >
                   <VideoLooper source={video} />
