@@ -1,5 +1,44 @@
-.row{
-    top: 200px;
+.details_hdl{
+    margin-top: 65px;
+    height: 600px;
 }
-.maintxt {position: relative;}
-.maintxt > img, .overlay-text {position: absolute;}
+.content h3{
+    color: #fff;
+    margin:100px;
+   
+    padding: 20px;
+}
+.content p{
+    margin:100px;
+    color: #fff;
+    padding: 30px;
+}
+
+.content{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    height: 600px;
+}
+.video_file{
+    padding: 20px;
+    
+}
+.vid{
+    width:40%;
+    float:left;
+    padding:20px;
+}
+.vid-content{
+
+    width: 40%;
+    padding: 20px;
+}
+.slider{
+    width:100%;
+    padding: 20px;
+}
+.slider img{
+    width:60%;
+    padding: 20px 0 20px 20px;
+}
