@@ -566,14 +566,19 @@ section {
   }
 }
 
-@media (max-width: 1100px) {
+
+@media (max-width: 648px){
+  body{
+    overflow-x: hidden;
+  }
   .menu-icon {
     display: block;
   }
-  nav{
-    width: 100%;
+  .cover VideoLooper{
+    width:600px;
+    height: 400px;
   }
-  .nav {
+  nav {
     justify-content: space-between;
     height: 65px;
     padding: 0px 30px;
@@ -600,7 +605,8 @@ section {
     
   }
   .logo img {
-    width: 120px;
+     width: 45px;
+    height: 45px;
   }
   .header-btns {
     margin: 0;
